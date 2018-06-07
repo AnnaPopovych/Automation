@@ -1,7 +1,7 @@
 def listsum(a):
     b = 0
-    for i in a:
-        b = b + i
+    for i in a[::2]:
+        b = b + i * a[-1]
     return b
 
 
